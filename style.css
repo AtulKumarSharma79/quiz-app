@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 2rem;
+    max-width: 600px;
+    margin: auto;
+    background-color: #f9f9f9;
+  }
+  .question-container {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+  }
+  .options button {
+    display: block;
+    margin: 0.5rem 0;
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+  .timer {
+    font-size: 1.2rem;
+    color: red;
+    margin-bottom: 1rem;
+  }
+  #result {
+    font-weight: bold;
+    margin-top: 2rem;
+  }
+  
