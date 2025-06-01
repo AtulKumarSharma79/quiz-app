@@ -3,15 +3,51 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Quiz App</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Welcome to the Quiz!</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 2rem;
+      max-width: 600px;
+      margin: auto;
+      text-align: center;
+      background-color: #f9f9f9;
+    }
+    h1 {
+      font-size: 2.5rem;
+      color: #333;
+    }
+    .description {
+      font-size: 1.1rem;
+      margin: 1.5rem 0;
+    }
+    .start-btn {
+      font-size: 1.2rem;
+      padding: 0.8rem 2rem;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    .start-btn:hover {
+      background-color: #0056b3;
+    }
+  </style>
 </head>
 <body>
-  <h1>Quiz</h1>
-  <div class="timer" id="timer">Time left: 10s</div>
-  <div class="question-container" id="question-container"></div>
-  <div class="options" id="options"></div>
-  <div id="result"></div>
-  <script src="script.js"></script>
+
+  <h1>Welcome to the Quiz</h1>
+  <div class="description">
+    <p>🧠 Test your knowledge with 5 quick questions!</p>
+    <p>⏱ You have 10 seconds to answer each one.</p>
+    <p>🎯 Choose wisely and aim for a perfect score!</p>
+  </div>
+
+  <a href="quiz.html">
+    <button class="start-btn">Start Quiz</button>
+  </a>
+
 </body>
 </html>
