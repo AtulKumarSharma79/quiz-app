@@ -1,9 +1,9 @@
 const questions = [
-  { q: "What is 5^2 - 1 + 10?", options: ["24", "34", "36", "30"], answer: 1 },
-  { q: "What is (2 x 6) + (10 / 5)?", options: ["10", "12", "14", "16"], answer: 2 },
-  { q: "What is 27 / 3 + 11?", options: ["17", "20", "21", "19"], answer: 1 },
-  { q: "What is 3 x 8 / 2 + 1?", options: ["12", "13", "14", "15"], answer: 1 },
-  { q: "What is 7 x 14 / 2 - 3?", options: ["45", "48", "46", "44"], answer: 2 }
+  { q: "What is 5² - 1 + 10?", options: ["24", "34", "36", "30"], answer: 1 },
+  { q: "What is (2 × 6) + (10 ÷ 5)?", options: ["10", "12", "14", "16"], answer: 2 },
+  { q: "What is 27 ÷ 3 + 11?", options: ["17", "20", "21", "19"], answer: 1 },
+  { q: "What is 3 × 8 ÷ 2 + 1?", options: ["12", "13", "14", "15"], answer: 1 },
+  { q: "What is 7 × 14 ÷ 2 - 3?", options: ["45", "48", "46", "44"], answer: 2 }
 ];
 
 let current = 0;
