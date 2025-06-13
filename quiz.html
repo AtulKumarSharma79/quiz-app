@@ -3,15 +3,81 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Quiz App</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Math Quiz</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 2rem;
+      max-width: 600px;
+      margin: auto;
+      background-color: #d9f1ff;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    .timer {
+      font-size: 1.2rem;
+      color: red;
+      margin-bottom: 1rem;
+    }
+
+    .question-container {
+      font-size: 1.2rem;
+      margin-bottom: 1rem;
+    }
+
+    .options button {
+      display: block;
+      margin: 0.5rem auto;
+      width: 100%;
+      max-width: 300px;
+      padding: 0.6rem;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+
+    .options button:disabled {
+      cursor: not-allowed;
+      opacity: 0.7;
+    }
+
+    #next-btn-container {
+      margin-top: 1rem;
+    }
+
+    #next-btn-container button,
+    #result button {
+      padding: 0.6rem 1.2rem;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+
+    #result {
+      font-weight: bold;
+      font-size: 1rem;
+      margin-top: 2rem;
+      text-align: left;
+    }
+
+    ol {
+      text-align: left;
+    }
+  </style>
 </head>
 <body>
-  <h1>Quiz</h1>
-  <div class="timer" id="timer">Time left: 10s</div>
-  <div class="question-container" id="question-container"></div>
+
+  <h1>Math Quiz</h1>
+
+  <div id="timer" class="timer"></div>
+  <div id="question-container" class="question-container"></div>
   <div class="options" id="options"></div>
+  <div id="next-btn-container"></div>
   <div id="result"></div>
+
   <script src="script.js"></script>
 </body>
 </html>
