@@ -147,18 +147,19 @@ function showFinalResult() {
 }
 
 function restartQuiz() {
-  current = 0;
-  score = 0;
-  timeLeft = 10;
-  userAnswers = [];
+  // current = 0;
+  // score = 0;
+  // timeLeft = 10;
+  // userAnswers = [];
 
-  document.getElementById("result").innerHTML = "";
-  document.getElementById("timer").style.display = "block";
-  document.getElementById("next-btn-container").innerHTML = "";
-  document.getElementById("question-container").innerHTML = "";
-  document.getElementById("options").innerHTML = "";
+  // document.getElementById("result").innerHTML = "";
+  // document.getElementById("timer").style.display = "block";
+  // document.getElementById("next-btn-container").innerHTML = "";
+  // document.getElementById("question-container").innerHTML = "";
+  // document.getElementById("options").innerHTML = "";
 
-  loadQuestion();
+  // loadQuestion();
+  window.location.href = "index.html";
 }
 
 loadQuestion();
